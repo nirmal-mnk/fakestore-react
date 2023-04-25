@@ -1,0 +1,33 @@
+.categoriesCardMain {
+  width: 70%;
+  margin: 0 auto;
+}
+.categoriesCardMain .categoriescardSub {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #fff;
+}
+.cardHead img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.cardHead {
+  text-align: center;
+  padding: 1rem;
+}
+.cardContent {
+  padding: 1rem;
+}
+.cardContent p {
+  margin-bottom: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cardContent h3 {
+  margin-bottom: 10px;
+}

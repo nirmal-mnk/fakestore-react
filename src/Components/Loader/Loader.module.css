@@ -1,0 +1,30 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.loadercss {
+  opacity: 1;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1090;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.loadercss img {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

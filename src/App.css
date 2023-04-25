@@ -1,38 +1,142 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.nav-link {
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.nav-link:hover {
+  border: 1px dotted rgb(168, 168, 168);
+}
+.nav-link.active {
+  border: 1px dotted rgb(168, 168, 168);
+}
+.searchbutton {
+  border: 1px solid #f3a847 !important;
+  color: #f3a847 !important;
+}
+.searchbutton:hover {
+  background-color: #f3a847 !important;
+  color: #fff !important;
+}
+.errorPage {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorPage img {
+  width: 40vh;
+  height: auto;
+}
+.login-sec {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../public/Images/ShinyOverlay.svg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.login-card {
+  width: 30%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 2rem 2.5rem;
+}
+.login-card__title {
+  font-size: 30px;
+  color: #232f3e;
+  text-align: center;
+  margin-bottom: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.login-card__form {
+  width: 100%;
+  height: auto;
+}
+.login-card__formcontrol {
+  width: 100%;
+}
+.login-card__formcontrol .label {
+  color: #cdcdcd;
+}
+.login-card__formcontrol .login-card__forminput {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  background: none;
+  border: 1px solid #cdcdcd;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.login-card__actions {
+  width: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-card__submit {
+  padding: 8px 30px;
+  color: #fff;
+  background-color: #232f3e;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-card__error {
+  font-size: 12px;
+  color: red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sucess-page-main {
+  width: 100%;
+  height: auto;
+  padding: 7% 5%;
+}
+.sucess-page-main .success-page-sub {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+}
+.cartbtn {
+  float: left;
+  padding: 15px 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #fb641b;
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartbtn:hover {
+  background-color: #fb641b;
+  color: #ecf0f1;
 }

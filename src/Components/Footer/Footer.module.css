@@ -1,0 +1,31 @@
+.footerbg {
+  background-color: #232f3e;
+  padding: 3rem 0;
+}
+.footerSub {
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid #505a6d;
+  padding-bottom: 2rem;
+}
+.footerSub h5 {
+  color: #fff;
+}
+.footerSub ul {
+  margin: 0;
+  padding: 0;
+}
+.footerSub ul li {
+  color: #d6d6d6;
+  list-style: none;
+}
+.footerlogo {
+  text-align: center;
+  margin: 5rem 0 0 0;
+}
+.footerlogo img {
+  width: 100px;
+}
+.footerlogo p {
+  color: #d6d6d6;
+}

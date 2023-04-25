@@ -1,0 +1,37 @@
+.headerMain {
+  width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+  background-color: #131921;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerLeft {
+  width: 20%;
+}
+.headerRight {
+  width: 80%;
+}
+.logo {
+  width: 100px;
+  height: auto;
+}
+.cartCount {
+  color: #fff;
+  background-color: #f3a847;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.headerBtm {
+  width: 100%;
+  background-color: #232f3e;
+}

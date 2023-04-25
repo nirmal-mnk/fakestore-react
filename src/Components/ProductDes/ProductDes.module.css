@@ -1,0 +1,37 @@
+.productDesMain {
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productDesLeft {
+  width: 50%;
+  height: auto;
+}
+.productImg {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+}
+.actions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.actionBtns {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #fb641b;
+  border: 1px solid #fb641b;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.productDesRight {
+  width: 50%;
+  height: auto;
+}
