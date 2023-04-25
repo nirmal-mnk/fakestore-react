@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fakestore-react/static/css/main.a4ae1e2e.css",
-    "main.js": "/fakestore-react/static/js/main.2a1b6b07.js",
+    "main.js": "/fakestore-react/static/js/main.b0221467.js",
     "static/media/ShinyOverlay.svg": "/fakestore-react/static/media/ShinyOverlay.ca563d67f3663e8ed1d2.svg",
     "index.html": "/fakestore-react/index.html",
     "main.a4ae1e2e.css.map": "/fakestore-react/static/css/main.a4ae1e2e.css.map",
-    "main.2a1b6b07.js.map": "/fakestore-react/static/js/main.2a1b6b07.js.map"
+    "main.b0221467.js.map": "/fakestore-react/static/js/main.b0221467.js.map"
   },
   "entrypoints": [
     "static/css/main.a4ae1e2e.css",
-    "static/js/main.2a1b6b07.js"
+    "static/js/main.b0221467.js"
   ]
 }
